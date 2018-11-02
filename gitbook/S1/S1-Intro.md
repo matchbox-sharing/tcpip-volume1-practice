@@ -1,9 +1,11 @@
-# One-to-Two
+# LAN of sole device
 
-After finishing this tutorial, you will understand following questions:
+### Goals
+
+After finishing this tutorial, you are able to answer the following questions:
 
 * How to explore the network status on your PC ?
-* How to create a network within only two computers, and what the communication looks like ?
+* How to create a LAN within only one device, and what does the communication look like ?
 
 More important, you will obtain the knowledge as following,
 
@@ -12,7 +14,17 @@ More important, you will obtain the knowledge as following,
 * The TCP/IP and OSI model
 
 
-We are not going to lecture you like any other network books do, but start the hands-on experiments to walk you through the concepts of network, and inspire you to think independently, even design your own network experiments.
+### Resources
+* Hardware
+    * PC
+    * Rasberry Pi 3
+    * Cable 
+    * Cable Tester
+* Software
+    * OS: ubuntu 16.04, ubuntu 18.04 
+    * Linux command line
+    * wireshark
+    * tcpdump
 
 
 
