@@ -10,6 +10,7 @@ After finishing this tutorial, you are able to answer the following questions:
 More important, you will obtain the knowledge as following,
 
 * Get familiar with ICMP, DNS, SSH
+* Understand TCP and UDP packet
 * Get intensive usage of wireshark 
 
 
@@ -21,7 +22,7 @@ More important, you will obtain the knowledge as following,
     * Cable Tester
 * Software
     * OS: ubuntu 16.04, ubuntu 18.04 
-    * Linux command line
+    * Linux network utilities 
     * wireshark
     * tcpdump
 

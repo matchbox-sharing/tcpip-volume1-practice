@@ -1,6 +1,7 @@
-# CS-Services 
+# Network services 
 
-After finishing this tutorial, you will understand following questions:
+### Goals
+After finishing this tutorial, you are able to answer the following questions:
 
 * How to create DNS resolver ?
 * How to create DHCP server ?
@@ -10,10 +11,18 @@ After finishing this tutorial, you will understand following questions:
 
 More important, you will obtain the knowledge as following,
 
-* The usage of network utilities in Linux
-* The usage of wireshark
-* The TCP/IP and OSI model
+* Understand protocols, such as DNS, DHCP, TFTP, HTTP 
+* Intensive usage of wireshark
 
-
-We are not going to lecture you like any other network books do, but start the hands-on experiments to walk you through the concepts of network, and inspire you to think independently, even design your own network experiments.
+### Resources
+* Hardware
+    * PC
+    * Rasberry Pi 3
+    * Cable and Cabel Tester
+    * Switch
+* Software
+    * OS: ubuntu 16.04, ubuntu 18.04
+    * Linux network utilities 
+    * wireshark
+    * tcpdump
 

@@ -22,7 +22,7 @@ More important, you will obtain the knowledge as following,
     * Cable Tester
 * Software
     * OS: ubuntu 16.04, ubuntu 18.04 
-    * Linux command line
+    * Linux network utilities 
     * wireshark
     * tcpdump
 
