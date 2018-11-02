@@ -1,12 +1,10 @@
-# CS-Services 
+# Switch 
 
 After finishing this tutorial, you will understand following questions:
 
-* How to create DNS resolver ?
-* How to create DHCP server ?
-* How to create TFTP server ?
-* How to create HTTP/HTTPS server ?
-* How to create Samba server ? 
+* How to create a network with switch ?
+* What are ARP and RARP ?
+* How does Broadcast work ?
 
 More important, you will obtain the knowledge as following,
 
