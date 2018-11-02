@@ -3,8 +3,8 @@ This project aims to demomstrate the network knowledge illustrated in the classi
 
 The project is divided into following sections:
 * LAN network of sole device
-* Create LAN network with two devices
-* Create LAN network with three and more devices
+* LAN network with two devices
+* LAN network with three and more devices
 * Network services under Client-Server model
 * Router and LAN
 * WAN
