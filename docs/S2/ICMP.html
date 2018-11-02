@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Network status of sole PC · GitBook</title>
+        <title>Analyze ICMP protocol · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="CreateSolePCNet.html" />
+    <link rel="next" href="DNS.html" />
     
     
-    <link rel="prev" href="Hardware.html" />
+    <link rel="prev" href="Create2PCNet.html" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="S1-Intro.html">
+        <li class="chapter " data-level="1.2" data-path="../S1/S1-Intro.html">
             
-                <a href="S1-Intro.html">
+                <a href="../S1/S1-Intro.html">
             
                     
                     Section 1: LAN network of sole device
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="Hardware.html">
+        <li class="chapter " data-level="1.2.1" data-path="../S1/Hardware.html">
             
-                <a href="Hardware.html">
+                <a href="../S1/Hardware.html">
             
                     
                     NIC and Cable
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="PCView.html">
+        <li class="chapter " data-level="1.2.2" data-path="../S1/PCView.html">
             
-                <a href="PCView.html">
+                <a href="../S1/PCView.html">
             
                     
                     Network status of sole PC
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="CreateSolePCNet.html">
+        <li class="chapter " data-level="1.2.3" data-path="../S1/CreateSolePCNet.html">
             
-                <a href="CreateSolePCNet.html">
+                <a href="../S1/CreateSolePCNet.html">
             
                     
                     Configure network with sole PC
@@ -160,9 +160,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="../S2/S2-Intro.html">
+        <li class="chapter " data-level="1.3" data-path="S2-Intro.html">
             
-                <a href="../S2/S2-Intro.html">
+                <a href="S2-Intro.html">
             
                     
                     Section 2: LAN network with two devices
@@ -174,9 +174,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../S2/Create2PCNet.html">
+        <li class="chapter " data-level="1.3.1" data-path="Create2PCNet.html">
             
-                <a href="../S2/Create2PCNet.html">
+                <a href="Create2PCNet.html">
             
                     
                     Create network with 2 PCs
@@ -187,9 +187,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="../S2/ICMP.html">
+        <li class="chapter active" data-level="1.3.2" data-path="ICMP.html">
             
-                <a href="../S2/ICMP.html">
+                <a href="ICMP.html">
             
                     
                     Analyze ICMP protocol
@@ -200,9 +200,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="../S2/DNS.html">
+        <li class="chapter " data-level="1.3.3" data-path="DNS.html">
             
-                <a href="../S2/DNS.html">
+                <a href="DNS.html">
             
                     
                     Analyze DNS protocol
@@ -213,9 +213,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4" data-path="../S2/SSH.html">
+        <li class="chapter " data-level="1.3.4" data-path="SSH.html">
             
-                <a href="../S2/SSH.html">
+                <a href="SSH.html">
             
                     
                     Analyze SSH protocol
@@ -326,7 +326,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Network status of sole PC</a>
+        <a href=".." >Analyze ICMP protocol</a>
     </h1>
 </div>
 
@@ -341,16 +341,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="isolated-pc-loopback-interface">Isolated PC, loopback interface</h1>
-<h3 id="inspect-loopback-interface-through-inspectifacestatesh">Inspect loopback interface through <code>inspect_iface_state.sh</code></h3>
-<pre><code>* ip link 
-* ifonfig
-</code></pre><h3 id="any-network-flow-in-loopback">Any network flow in loopback</h3>
-<pre><code>* inspect network activity of `lo` through `tb_filter_monitor.sh` and `wireshark`, analyze `ping`
-* inspect network activity of `lo` through `tb_filter_monitor.sh` and `wireshark`, analyze `nslook up`
-* inspect MTU through `ping_MTU.sh` 
-* enable and config trace through `enable_trace.sh` and `tb_raw_trace.sh` 
-</code></pre>
+                                <h1 id="icmp">ICMP</h1>
+<ul>
+<li>wireshark usage</li>
+<li>iptables TRACK</li>
+</ul>
+
                                 
                                 </section>
                             
@@ -377,12 +373,12 @@
 
             
                 
-                <a href="Hardware.html" class="navigation navigation-prev " aria-label="Previous page: NIC and Cable">
+                <a href="Create2PCNet.html" class="navigation navigation-prev " aria-label="Previous page: Create network with 2 PCs">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="CreateSolePCNet.html" class="navigation navigation-next " aria-label="Next page: Configure network with sole PC">
+                <a href="DNS.html" class="navigation navigation-next " aria-label="Next page: Analyze DNS protocol">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -393,7 +389,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Network status of sole PC","level":"1.2.2","depth":2,"next":{"title":"Configure network with sole PC","level":"1.2.3","depth":2,"path":"S1/CreateSolePCNet.md","ref":"S1/CreateSolePCNet.md","articles":[]},"previous":{"title":"NIC and Cable","level":"1.2.1","depth":2,"path":"S1/Hardware.md","ref":"S1/Hardware.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"S1/PCView.md","mtime":"2018-11-02T07:10:29.921Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-02T07:19:18.975Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Analyze ICMP protocol","level":"1.3.2","depth":2,"next":{"title":"Analyze DNS protocol","level":"1.3.3","depth":2,"path":"S2/DNS.md","ref":"S2/DNS.md","articles":[]},"previous":{"title":"Create network with 2 PCs","level":"1.3.1","depth":2,"path":"S2/Create2PCNet.md","ref":"S2/Create2PCNet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"S2/ICMP.md","mtime":"2018-11-02T06:21:22.544Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-02T07:19:18.975Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

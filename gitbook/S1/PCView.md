@@ -1,7 +1,4 @@
-# 1.b Isolated PC, loopback interface 
-
-Back to the "cave period", when your computer is isolated from any other PCs, let's explore the status of computer with some network tools.
-
+# Isolated PC, loopback interface 
 
 ### Inspect loopback interface through `inspect_iface_state.sh`
     * ip link 

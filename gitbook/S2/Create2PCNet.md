@@ -1,7 +1,4 @@
-# 1.d Connect two computers, let's make a network
-
-Back to the "cave period", when your computer is isolated from any other PCs, let's explore the status of computer with some network tools.
-
+# Connect two computers, let's make a network
 
 ### Config NIC in the same network, and connect them with cable 
     * execute `config_interface_FILE.sh` on two computers and reboot, see what happened

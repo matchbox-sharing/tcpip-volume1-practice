@@ -1,6 +1,4 @@
-# 1.a Network hardware 
-
-Back to the "cave period", when your computer is isolated from any other PCs, let's explore the status of computer with some network tools.
+# Network hardware 
 
 
 ### Let's have a look at the physical device

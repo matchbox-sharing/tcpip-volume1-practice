@@ -1,7 +1,4 @@
-# 1.c Configure your own interface
-
-Back to the "cave period", when your computer is isolated from any other PCs, let's explore the status of computer with some network tools.
-
+# Configure your own interface
 
 ### Config network through CLI on-the-fly
     * execute `config_interface_CLI.sh` with and without the cable plugged in
