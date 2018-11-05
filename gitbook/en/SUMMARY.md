@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 
+* [Section 0: Overview](S0/S0-Intro.md)
+
 * [Section 1: LAN of sole device](S1/S1-Intro.md)
     * [NIC and Cable](S1/Hardware.md)
     * [Network status of sole PC](S1/PCView.md)

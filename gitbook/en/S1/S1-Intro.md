@@ -1,5 +1,7 @@
 # LAN of sole device
 
+In this session, we are going to start with network hardware layer, then move up to link layer and internet layer.
+
 ### Goals
 
 After finishing this tutorial, you are able to answer the following questions:
@@ -17,7 +19,7 @@ More important, you will obtain the knowledge as following,
 ### Resources
 * Hardware
     * PC
-    * Rasberry Pi 3
+    * Raspberry Pi 3
     * Cable 
     * Cable Tester
 * Software
