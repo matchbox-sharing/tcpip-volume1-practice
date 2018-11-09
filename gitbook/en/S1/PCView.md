@@ -9,7 +9,7 @@ Execute `inspect_iface_state.sh`, which implements `ip link` and `ifconfig` on `
 Inspect network activity of `lo` through `tb_filter_monitor.sh` and `wireshark`, analyze `ping`
 
 ### DNS on `lo` 
-Inspect network activity of `lo` through `tb_filter_monitor.sh` and `wireshark`, analyze `nslook up`
+Inspect network activity of `lo` through `tb_filter_monitor.sh` and `wireshark`, analyze `nslookup`
 
 ### What is MTU
 Inspect MTU through `ping_MTU.sh` 
