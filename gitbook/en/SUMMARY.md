@@ -3,8 +3,8 @@
 * [Introduction](README.md)
 
 * [Section 0: Overview](S0/S0-Intro.md)
-    * [Network Concepts](S0/NetworkConcepts.md)
-    * [Environment Preparation](S0/Environment.md)
+    * [Network concepts](S0/NetworkConcepts.md)
+    * [Environment preparation](S0/Environment.md)
 
 * [Section 1: LAN of sole device](S1/S1-Intro.md)
     * [NIC and Cable](S1/Hardware.md)
