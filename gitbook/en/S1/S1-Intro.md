@@ -1,5 +1,10 @@
 # LAN of sole device
 
+<div style="text-align:center">
+<img src="https://www.lucidchart.com/publicSegments/view/03c4c8df-ae91-428e-a57b-ab8904b5f07c/image.png">
+</div>
+{% center %} **Fig 1.1**: LAN with only one device {% endcenter %}
+
 In this session, we are going to start with network hardware layer, then move up to link layer and internet layer.
 
 ### Goals
@@ -27,9 +32,5 @@ More important, you will obtain the knowledge as following,
     * Linux network utilities 
     * wireshark
     * tcpdump
-
-
-
-
 
 
