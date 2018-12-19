@@ -8,8 +8,8 @@
 
 * [Section 1: LAN of sole device](S1/S1-Intro.md)
     * [NIC and Cable](S1/Hardware.md)
-    * [Network status of sole PC](S1/PCView.md)
-    * [Configure network with sole PC](S1/CreateSolePCNet.md)
+    * [Network status of lo](S1/PCView.md)
+    * [Configure network](S1/CreateSolePCNet.md)
 
 * [Section 2: LAN with two devices](S2/S2-Intro.md)
     * [Create network with 2 PCs](S2/Create2PCNet.md)
