@@ -1,11 +1,11 @@
-# Connect two computers, let's make a network
+# Connect two computers, let's make a network [TODO: add topic graph]
 
-### Config NIC in the same network, and connect them with cable 
+### Config NIC in the same network, and connect them with cable [TODO: add video]
     * execute `config_interface_FILE.sh` on two computers and reboot, see what happened
     * modify the `etc_network_interfaces`, making the ip different and reboot, see what happened
     * play with `ping`, `ssh` through `iptables TRACK`, `wireshark`
 
-### Config NIC in the different network, and connect them with cable 
+### Config NIC in the different network, and connect them with cable [TODO: add video]
     * modify the `etc_network_interfaces`, making the ip different which are in different network and reboot, see what happened
     * play with `ping`, `ssh` through `iptables TRACK`, `wireshark`
     * use `ip route`, make them be able to communicate

@@ -1,5 +1,10 @@
 # LAN with two devices
 
+<div style="text-align:center">
+<img src="https://www.lucidchart.com/publicSegments/view/f4091b85-bffa-41e0-a599-ef9b46054203/image.png">
+</div>
+{% center %} **Fig 2.1 **: LAN with two devices {% endcenter %}
+
 ### Goals
 
 After finishing this tutorial, you are able to answer the following questions:
@@ -25,9 +30,6 @@ More important, you will obtain the knowledge as following,
     * Linux network utilities 
     * wireshark
     * tcpdump
-
-
-
 
 
 

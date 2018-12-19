@@ -1,7 +1,6 @@
-# NIC and Cable 
+# NIC and Cable [TODO: add topic graph]
 
-
-### Let's have a look at the physical device
+### Let's have a look at the physical device [TODO: add video]
 * Ethernet interface card (switch, pc, usb-NIC, Raspberry pi) 
 * Wireless network card or adaptor
 * Ethernet cable

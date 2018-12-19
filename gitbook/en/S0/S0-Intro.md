@@ -1,9 +1,10 @@
 # Overview 
 
-[TODO: Add graph of TCP/IP and OSI model]
+![graph of TCP/IP and OSI model](https://www.lucidchart.com/publicSegments/view/4108a2c3-9438-49ec-a49c-1f836a5390b8/image.png)
+{% center %} **Fig 0.1**: TCP/IP model VS OSI model {% endcenter %}
 
-As seen above, the classic pciture to define each layer in TCP/IP and OSI model, as well as the mapping between those two models.
-In this tutorial, we are going to explain following concepts and mechanism with experiment with refer to the TCP/IP model,
+As seen above, the classic graph to define each layer in TCP/IP and OSI model, as well as the mapping between those two models.
+In this tutorial, we are going to explain following concepts and mechanisms with experiments with refer to the TCP/IP model,
 * What are TCP/IP and OSI model ?
 * Why does layer exist ?
 * What are those layers and their functionalities ?
@@ -11,10 +12,9 @@ In this tutorial, we are going to explain following concepts and mechanism with 
 * How does the data look like in each layer ?
 
 In order to answer the questions above, the topologies of experiments are designed inductively, 
-[TODO: Add topology]
-* LAN with only one device
-* LAN with two devices
-* LAN with multiple devices
-* Connect two LANs with router
-* Connect multiple LANs
-* Connect LAN with WAN
+<div style="text-align:center">
+<img src="https://www.lucidchart.com/publicSegments/view/f8034c83-1fdb-43e8-a874-17e9a992416d/image.png">
+</div>
+{% center %} **Fig 0.2**: Tutorial path {% endcenter %}
+
+
