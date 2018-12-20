@@ -43,3 +43,14 @@ trace_status:
 trace_log:
 	sudo tail -n 100 /var/log/kern.log
 
+
+.PHONY: cli_set_iface cli_restore_iface file_cfg_iface
+cli_set_iface:
+	sudo ifconfig $(IFACE) 10.0.0.2 broadcast 10.0.0.255 netmask 255.255.255.0
+
+cli_restore_iface:
+	sudo ifconfig $(IFACE) 0.0.0.0
+
+file_cfg_iface:
+	sudo vim /etc/network/interfaces
+	sudo systemctl restart networking.service

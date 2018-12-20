@@ -1,0 +1,11 @@
+So let's start with a simple topology, which is a LAN with two computers connected via an ethernet cable. The computers have been already configured, let's check their network statuses and connectivity.
+
+As you can see, computer `A` has ip address `192.168.0.10` and `B` has ip address `192.168.0.11`, both with netmask `255.255.255.0`. And Ok, let's ping `192.168.0.10` which is the ip of `A` from `B`.
+
+You can see their connectivity is fine. And we are going to use `wireshark` and `tcpdump` to detect and analyze the ping activity.
+
+First go with tcpdump. tcpdump has been installed in `A`, and start it by listening on interface `eth0`, and there are some activities going on (bla bla bla).
+
+Let's filter those network related to ping (bla bla bla). That is how to use tcpdump, you may have seen that the visualization is not really friendly in tcpdump.
+
+So let's try `wireshark` to get a better view. (bla bla bla). In wireshark, we are able to see the network flow much clearer presented by layers. We can filter information like this, for example, (bla, bla, bla). And we can tell the packet are encapsulated through each layer.

@@ -1,7 +1,7 @@
 # LAN with two devices
 
 <div style="text-align:center">
-<img src="https://www.lucidchart.com/publicSegments/view/f4091b85-bffa-41e0-a599-ef9b46054203/image.png">
+<img src="https://www.lucidchart.com/publicSegments/view/42347994-72ce-40e5-93e0-675510917753/image.png">
 </div>
 {% center %} **Fig 2.1 **: LAN with two devices {% endcenter %}
 

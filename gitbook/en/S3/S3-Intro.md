@@ -1,7 +1,7 @@
 # LAN with multiple devices 
 
 <div style="text-align:center">
-<img src="https://www.lucidchart.com/publicSegments/view/13f0a67a-c53c-447c-8b0d-02f7cd69757f/image.png">
+<img src="https://www.lucidchart.com/publicSegments/view/216db3e0-2225-4b51-8f0c-20424e1733c7/image.png">
 </div>
 {% center %} **Fig 3.1**: LAN with multiple devices {% endcenter %}
 

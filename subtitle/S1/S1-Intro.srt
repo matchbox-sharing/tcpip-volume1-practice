@@ -1,0 +1,13 @@
+Like the definition of natural number, we would like to present the knowledge inductively in this tutorial, by starting with the simplest network topology, which is a local area network of only just one device, let's say a PC. 
+
+Some of you may ask that it is just one PC, how come is there any communication in it, or since it has no one to comnuicate with, why is it important or even necessary to talk about ?
+
+Well, let me answer the questions with an experiment. Assume that you are an engineer or IT admininstrator, and you have set up a http server listening on port `8000` in your local host.
+
+So let me perform the similar action here. I am creating a new directory called `test_server` and an html file `index.html` inside, with some goofy stuff written in. Emm, let's see. How about this, "Why do you teach network? Because I am the spiderman". Save the file, and start the server by `python -m SimpleHTTPServer`.
+
+Once it is started, you can visit the web by typing `127.0.0.1:8000` or `localhost:8000` in the browser. And you can see the goofy html we've just made. So what is happening at this moment? Actually, there is http network flow behind the scence in this lonely PC without any communication with others, since there is no other PCs involved in this network. Therefore, you can consider this scenario as the simplest example of network application, which happens just in one computer.
+
+ 
+So, in this section, we are going to explore this network or just this PC by inspecting its NIC from your naked eyes and also from the view of Operating System, and detecting its network flow and configuring the network interfaces. These are the experiments we are going to perform, from which, I will explain the OSI model from the lower layer to the upper layer. Beside that, I am going to show you the important network analysis tool called `wireshark` and also a kernel module related to network called `netfilter` or `iptables`, since it is more commonly used`.
+

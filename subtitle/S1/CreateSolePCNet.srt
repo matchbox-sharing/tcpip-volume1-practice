@@ -1,0 +1,3 @@
+Since we have already known how to check the interface status and its connectivity, we now can start to configurate one interface by assigning the ip address as we want, and test it using the approach we have learned. 
+
+

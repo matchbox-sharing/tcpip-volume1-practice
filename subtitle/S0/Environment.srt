@@ -1,0 +1,1 @@
+In this course, we need several hardware, such as a PC and serveral Raspberry Pis with ubuntu installed, ethernet cables and switch. And we will make our own router from a Raspberry Pi. ISP device will be used for later usage, since almost everyone watch this video should have Internet, so you are all set.

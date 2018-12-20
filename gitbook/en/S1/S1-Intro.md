@@ -1,7 +1,7 @@
 # LAN of sole device
 
 <div style="text-align:center">
-<img src="https://www.lucidchart.com/publicSegments/view/03c4c8df-ae91-428e-a57b-ab8904b5f07c/image.png">
+<img src="https://www.lucidchart.com/publicSegments/view/1561dc38-42ec-4198-bc64-982cd4bd5f3f/image.png">
 </div>
 {% center %} **Fig 1.1**: LAN with only one device {% endcenter %}
 

@@ -1,0 +1,17 @@
+# Part 1
+
+Let's have a look at the interfaces on a switch, here in my hand is a general switch with eight ethernet interfaces, which support maximum 1 Gbps.
+
+And also here, the Raspberry Pi 3 has one ethernet interface but only support 100 Mbps, we will see later after booting it.
+
+Well, here is a small wifi adapter which you can plug into your computer as a wireless interface. Let's have a look later.
+
+Those standards of the physical devices are defined in Layer one, which is the physical layer. For example, 
+
+# Part 2
+
+We can see the devices through our naked eyes, and the question is how the operating system knows that the network interfaces on the device. That is the problem we are going to solve now.
+
+Let's use the program I have written, starting with `make network`, you can tell (bla bla bla)
+
+

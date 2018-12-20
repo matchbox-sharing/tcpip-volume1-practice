@@ -1,0 +1,16 @@
+This is the most famous graph in any network courses. As you may know, there are two models to describe how network works. One is OSI, and the other is TCP/IP.
+Both imply the idea of abstraction. In this sense, they are not so different, OSI model is more theoretic, while TCP/IP model is widely used at present in reality. 
+In this tutorial, we are going to dig into this graph, by designing and making plenty of experiments so that we can understand "What are TCP/IP and OSI models ?", "Why does layer exist ?", "What are those layers and their functionalities ?", "What are those protocols running on each layer ? How do they work ? such as ICMP, DNS, HTTP", "How does the data look like in each layer ?".
+In order to answer these questions, the topologies of our experiments are designed inductively.
+
+As you can see, the first tologogy is a LAN with only one PC inside, and we are going to inspect its NIC, check whether there is a network flow, and if we set up a http service, and visit it from itself, how does the network flow look like ? We will start to learn `wireshark` and `tcpdump` in this first chapter, which I think it's very important for any subjects, since the analysis tool is the first thing you should master in order to explore more.
+
+Then we move to the LAN with two PCs connected via cable, we are going to learn `SSH`, `ICMP`, `DNS` in detail, by setting up experiments and detecting network flow using `wireshark` which have been introduced in the previous chapter. Till now, you actually are able to explore more on your own.
+
+And to create a LAN with multiple devices, the cables are not enough for this scenario, that is the moment that switch is invented for. We will set up a LAN with 3 devices, one is the server with http service on it, and the other two are going to visit the service as clients, and we are going to detect network flow on each device simultaneously.
+
+Ok, you may find that, There is only one LAN in all these three topologies we have mentioned, so if we have mutliple LANs and want to connect them together, can we achieve that, the answer is definitely yes, but we have to use another device called router. Therefore, we can start the forth topology, which is two networks connected via a router. First we are going to use a router from the market, then create a router by ourselves. Then start to analyze the packets in order to understand what the router does, and how it works. After that we go a little bit further, playing around iptables, which is a quite important topic of network in Linux.
+
+Till now, we believe that you have got every piece you need to create a LAN according to any requirements. In order to test that, we set up a topology in which three networks are connected via a router, and serveral requirements are proposed. We will guide you to fulfill the demands step by step.
+
+At the final topology, we are going to solve just one puzzle together, that is what actully happens when you visit a website, for example `google`. 

@@ -1,0 +1,9 @@
+In the previous video, we have already seen how to inspect information of interfaces from physical layer. Today we are going to have a look at those information of data link layer and network layer.
+
+Since we have only one device which has no connection with others, neither wired nor wireless one, and we are not in hurry to do any configuration before understanding data link layer and network layer.
+
+So how can we do that, we could start with a special interface called `lo`, which is a loopback interface used to identify the device itself. We will play around with it, such as checking its status and ping its ip address. And at the same time, we analyze the network flow using `tcpdump` and `wireshark`, which helps us understand the mechanism of packet encapsulation. 
+
+After seeing how icmp packet looks like, we can try `nslookup` and tell how dns packet looks like.
+
+Beside using `wireshark` or `tcpdump`, let's have a look at those network flow from another angle, which is netfilter, aka, iptables. (bla bla)
