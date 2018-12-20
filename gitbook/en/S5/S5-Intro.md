@@ -11,5 +11,28 @@
 {% center %} **Fig 5.2**: Connect multiple LANs {% endcenter %}
 
 ### Goals
+After finishing this tutorial, you are able to answer the following questions:
+
+* How does router work ?
+* How to create a router from a pc ?
+* How to trouble shooting connectivity problems ?
+* How to do routing control ?
+
+More important, you will obtain the knowledge as following,
+
+* Solid your network knowledge, enhance your debugging skill 
+* Intensive usage of wireshark
 
 ### Resources
+* Hardware
+    * PC
+    * Rasberry Pi 3
+    * Cable and Cabel Tester
+    * Router and Switch
+* Software
+    * OS: ubuntu 16.04, ubuntu 18.04
+    * Linux network utilities 
+    * wireshark
+    * iptables
+    * tcpdump
+

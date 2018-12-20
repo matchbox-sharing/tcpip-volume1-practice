@@ -5,7 +5,7 @@
 * Play with isolated interface, `ping`,`ssh`
 
 ### Config network through configuration file (TODO: add video)
-* Execute `make file_cfg_iface IFACE=xxx` and reboot
+* Execute `make file_cfg_iface` and reboot
 
 ### Usage of analysis tools
 * Play with isolated interface, `ping`, `ssh` through `iptables TRACK`, `wireshark`
