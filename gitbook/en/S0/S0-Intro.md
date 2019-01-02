@@ -1,6 +1,6 @@
 # Overview 
 
-![graph of TCP/IP and OSI model](https://www.lucidchart.com/publicSegments/view/a6f0e64d-d93e-449f-9736-46afca972abc/image.png)
+![graph of TCP/IP and OSI model](https://www.lucidchart.com/publicSegments/view/f8c8f8d3-7bfd-404d-9342-3aeea0b56080/image.png)
 {% center %} **Fig 0.1**: TCP/IP model VS OSI model {% endcenter %}
 
 As seen above, the classic graph to define each layer in TCP/IP and OSI model, as well as the mapping between those two models.
